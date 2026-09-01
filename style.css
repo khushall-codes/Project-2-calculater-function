@@ -1,0 +1,76 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: #0F172A;
+}
+
+/* Calculator Box */
+.box {
+    background: #1E293B;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Display */
+.input {
+    width: 223px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #CBD5E1;
+    border-radius: 8px;
+    background: #F8FAFC;
+    color: #1E293B;
+}
+
+/* All Buttons */
+.button {
+    padding: 20px;
+    margin: 0 3px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+
+    background-color: #FBCFE8;
+    color: #1E293B;
+
+    transition: 0.2s;
+}
+
+/* Button Hover */
+.button:hover {
+    background-color: #F9A8D4;
+}
+
+/* Operators */
+.operator {
+    background-color: #F472B6;
+    color: white;
+}
+
+.operator:hover {
+    background-color: #EC4899;
+}
+
+/* Clear Button */
+.clear {
+    background-color: #FDA4AF;
+    color: #1E293B;
+}
+
+.clear:hover {
+    background-color: #FB7185;
+}
+
+/* Rows */
+.row {
+    margin: 8px 0;
+}
+h1 {
+    color: #FBCFE8;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
